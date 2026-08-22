@@ -87,6 +87,11 @@ public class BarCabinetBlock extends BaseEntityBlock {
     }
 
     private boolean onClick(BarCabinetBlockEntity barCabinet, Player player, ItemStack stack, boolean isLeftSide) {
+        // 冒险模式下不允许交互
+        if (!player.mayBuild()) {
+            return false;
+        }
+
         // 如果是异形酒瓶，那么永远都是 isLeftSide = true，放在左边
         boolean irregular = false;
         boolean single = barCabinet.isSingle();

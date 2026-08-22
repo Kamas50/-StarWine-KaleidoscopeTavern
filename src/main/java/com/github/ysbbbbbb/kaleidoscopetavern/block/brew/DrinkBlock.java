@@ -31,7 +31,6 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.EnumMap;
 import java.util.List;
-import java.util.function.Supplier;
 
 @SuppressWarnings("deprecation")
 public class DrinkBlock extends BottleBlock implements EntityBlock {
@@ -79,6 +78,11 @@ public class DrinkBlock extends BottleBlock implements EntityBlock {
 
     @Override
     public InteractionResult useItemOn(ItemStack stack, BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hitResult) {
+        // 冒险模式下不允许交互
+        if (!player.mayBuild()) {
+            return InteractionResult.SUCCESS;
+        }
+
         // 如果是空手，那么可以尝试取回
         if (!player.getItemInHand(hand).isEmpty()) {
             return super.useItemOn(stack, state, level, pos, player, hand, hitResult);

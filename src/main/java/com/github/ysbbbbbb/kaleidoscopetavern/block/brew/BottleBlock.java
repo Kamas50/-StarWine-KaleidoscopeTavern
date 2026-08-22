@@ -63,6 +63,10 @@ public class BottleBlock extends HorizontalDirectionalBlock implements SimpleWat
 
     @Override
     public InteractionResult useWithoutItem(BlockState state, Level level, BlockPos pos, Player player, BlockHitResult hitResult) {
+        if (!player.mayBuild()) {
+            return InteractionResult.SUCCESS;
+        }
+
         // 如果是空手，那么可以尝试取回
         if (level instanceof ServerLevel serverLevel) {
             getDrops(state, serverLevel, pos, null)
