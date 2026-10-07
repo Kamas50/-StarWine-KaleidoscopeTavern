@@ -18,7 +18,7 @@
       },
       {
         "effect": "minecraft:bad_omen",
-        "duration": 1200,
+        "duration": 240,
         "amplifier": 0,
         "probability": 1.0
       }
@@ -32,7 +32,7 @@
       },
       {
         "effect": "minecraft:bad_omen",
-        "duration": 1200,
+        "duration": 240,
         "amplifier": 1,
         "probability": 1.0
       }
@@ -46,7 +46,7 @@
       },
       {
         "effect": "minecraft:bad_omen",
-        "duration": 1200,
+        "duration": 240,
         "amplifier": 2,
         "probability": 1.0
       }
@@ -60,7 +60,7 @@
       },
       {
         "effect": "minecraft:bad_omen",
-        "duration": 1200,
+        "duration": 240,
         "amplifier": 3,
         "probability": 1.0
       }
@@ -74,7 +74,7 @@
       },
       {
         "effect": "minecraft:bad_omen",
-        "duration": 1200,
+        "duration": 360,
         "amplifier": 4,
         "probability": 1.0
       }
