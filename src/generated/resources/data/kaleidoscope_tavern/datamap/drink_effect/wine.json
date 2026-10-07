@@ -40,7 +40,7 @@
       },
       {
         "effect": "minecraft:regeneration",
-        "duration": 240,
+        "duration": 160,
         "amplifier": 0,
         "probability": 1.0
       }
@@ -55,7 +55,7 @@
       {
         "effect": "minecraft:regeneration",
         "duration": 240,
-        "amplifier": 1,
+        "amplifier": 0,
         "probability": 1.0
       }
     ],
@@ -68,8 +68,8 @@
       },
       {
         "effect": "minecraft:regeneration",
-        "duration": 540,
-        "amplifier": 1,
+        "duration": 360,
+        "amplifier": 0,
         "probability": 1.0
       }
     ]
