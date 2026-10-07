@@ -27,7 +27,7 @@ public class CocktailEffectHelper {
      * 相同效果叠加时的时长加成系数。
      * 当多个原料提供相同 MobEffect 时，合并后总时长乘以此系数作为奖励。
      */
-    public static final float EFFECT_MERGE_MULTIPLIER = 1.2f;
+    public static final float EFFECT_MERGE_MULTIPLIER = 0.7f;
 
     /**
      * 从 storage 中收集的原料数据（效果列表 + 颜色列表）。
