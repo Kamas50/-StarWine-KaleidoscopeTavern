@@ -65,31 +65,31 @@
       {
         "effect": "minecraft:blindness",
         "duration": 30,
-        "amplifier": 1,
+        "amplifier": 0,
         "probability": 0.15
       },
       {
         "effect": "minecraft:mining_fatigue",
         "duration": 30,
-        "amplifier": 1,
+        "amplifier": 0,
         "probability": 0.15
       },
       {
         "effect": "minecraft:speed",
         "duration": 30,
-        "amplifier": 1,
+        "amplifier": 0,
         "probability": 0.15
       },
       {
         "effect": "minecraft:jump_boost",
         "duration": 30,
-        "amplifier": 1,
+        "amplifier": 0,
         "probability": 0.15
       },
       {
         "effect": "minecraft:haste",
         "duration": 30,
-        "amplifier": 1,
+        "amplifier": 0,
         "probability": 0.15
       }
     ],
@@ -103,31 +103,31 @@
       {
         "effect": "minecraft:blindness",
         "duration": 60,
-        "amplifier": 2,
+        "amplifier": 0,
         "probability": 0.15
       },
       {
         "effect": "minecraft:mining_fatigue",
         "duration": 60,
-        "amplifier": 2,
+        "amplifier": 0,
         "probability": 0.15
       },
       {
         "effect": "minecraft:speed",
         "duration": 60,
-        "amplifier": 2,
+        "amplifier": 0,
         "probability": 0.15
       },
       {
         "effect": "minecraft:jump_boost",
         "duration": 60,
-        "amplifier": 2,
+        "amplifier": 0,
         "probability": 0.15
       },
       {
         "effect": "minecraft:haste",
         "duration": 60,
-        "amplifier": 2,
+        "amplifier": 0,
         "probability": 0.15
       }
     ],
@@ -141,31 +141,31 @@
       {
         "effect": "minecraft:blindness",
         "duration": 100,
-        "amplifier": 2,
+        "amplifier": 0,
         "probability": 0.15
       },
       {
         "effect": "minecraft:mining_fatigue",
         "duration": 100,
-        "amplifier": 2,
+        "amplifier": 0,
         "probability": 0.15
       },
       {
         "effect": "minecraft:speed",
         "duration": 100,
-        "amplifier": 2,
+        "amplifier": 0,
         "probability": 0.15
       },
       {
         "effect": "minecraft:jump_boost",
         "duration": 100,
-        "amplifier": 2,
+        "amplifier": 0,
         "probability": 0.15
       },
       {
         "effect": "minecraft:haste",
         "duration": 100,
-        "amplifier": 2,
+        "amplifier": 0,
         "probability": 0.15
       }
     ]
