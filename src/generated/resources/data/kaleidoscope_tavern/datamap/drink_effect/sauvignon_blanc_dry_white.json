@@ -68,7 +68,7 @@
       },
       {
         "effect": "kaleidoscope_tavern:grass_stealth",
-        "duration": 480,
+        "duration": 360,
         "amplifier": 0,
         "probability": 1.0
       }
