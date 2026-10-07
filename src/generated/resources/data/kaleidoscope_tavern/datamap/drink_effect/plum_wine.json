@@ -40,7 +40,7 @@
       },
       {
         "effect": "minecraft:water_breathing",
-        "duration": 240,
+        "duration": 160,
         "amplifier": 0,
         "probability": 1.0
       }
@@ -54,7 +54,7 @@
       },
       {
         "effect": "minecraft:water_breathing",
-        "duration": 720,
+        "duration": 240,
         "amplifier": 0,
         "probability": 1.0
       }
@@ -68,7 +68,7 @@
       },
       {
         "effect": "minecraft:water_breathing",
-        "duration": 2160,
+        "duration": 360,
         "amplifier": 0,
         "probability": 1.0
       }
