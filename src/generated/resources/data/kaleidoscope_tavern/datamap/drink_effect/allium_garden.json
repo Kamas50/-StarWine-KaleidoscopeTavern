@@ -4,7 +4,7 @@
     [
       {
         "effect": "kaleidoscope_tavern:xp_drain",
-        "duration": 1800,
+        "duration": 900,
         "amplifier": 0,
         "probability": 1.0
       }
