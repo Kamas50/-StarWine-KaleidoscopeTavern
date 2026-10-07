@@ -40,7 +40,7 @@
       },
       {
         "effect": "kaleidoscope_tavern:bloody_mary",
-        "duration": 120,
+        "duration": 160,
         "amplifier": 0,
         "probability": 1.0
       }
@@ -68,7 +68,7 @@
       },
       {
         "effect": "kaleidoscope_tavern:bloody_mary",
-        "duration": 480,
+        "duration": 360,
         "amplifier": 0,
         "probability": 1.0
       }
